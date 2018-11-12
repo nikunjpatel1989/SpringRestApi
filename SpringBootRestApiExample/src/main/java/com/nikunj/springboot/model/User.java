@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 public class User {
 
-	private long id;//
+	private long id;////
 
 	@NotNull
 	@Size(min = 5, message = "Name should have atleast 5 characters")
